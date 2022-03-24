@@ -13,6 +13,8 @@ import com.pedroso.devsuperior.bootcamp.services.exceptions.ResourceNotFoundExce
 
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.dao.EmptyResultDataAccessException;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -28,6 +30,12 @@ public class ClientService {
     public List<ClientDTO> findAll() {
         List<Client> list = repository.findAll();
         return list.stream().map(ClientDTO::new).toList();
+    }
+    
+    @Transactional(readOnly = true)
+    public Page<ClientDTO> findAllPaged(PageRequest pageRequest) {
+        Page<Client> list = repository.findAll(pageRequest);
+        return list.map(ClientDTO::new);
     }
 
     @Transactional(readOnly = true)
@@ -76,5 +84,7 @@ public class ClientService {
         entity.setIncome(dto.getIncome());
         entity.setChildren(dto.getChildren());
     }
+
+
 
 }
