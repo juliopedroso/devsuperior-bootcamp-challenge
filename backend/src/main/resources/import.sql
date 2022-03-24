@@ -1,0 +1,26 @@
+
+INSERT INTO tb_client (name, cpf, income, birthdate, children) VALUES ('Julio Cesar Pedroso', '878.135.740-01',1000.0 ,TIMESTAMP WITH TIME ZONE '1982-08-28T07:00:00.12345Z',1);
+INSERT INTO tb_client (name, cpf, income, birthdate, children) VALUES ('Aldair Baltazar da Rocha', '291.860.360-09',2500.0 ,TIMESTAMP WITH TIME ZONE '1992-01-14T10:00:00Z', 0);
+INSERT INTO tb_client (name, cpf, income, birthdate, children) VALUES ('Aline de Carvalho de Lima', '395.399.200-78',3000.0 ,TIMESTAMP WITH TIME ZONE '1992-02-14T10:00:00Z', 2);
+INSERT INTO tb_client (name, cpf, income, birthdate, children) VALUES ('Anderson Claudino', '713.506.260-40',3500.0 ,TIMESTAMP WITH TIME ZONE '1992-07-14T10:00:00Z', 1);
+INSERT INTO tb_client (name, cpf, income, birthdate, children) VALUES ('Andriele Silva', '518.211.640-32',1250.0 ,TIMESTAMP WITH TIME ZONE '1992-07-14T10:00:00Z', 0);
+INSERT INTO tb_client (name, cpf, income, birthdate, children) VALUES ('Carlos Roberto de Andrade', '227.378.160-17',5570.0 ,TIMESTAMP WITH TIME ZONE '1992-07-14T10:00:00Z', 3);
+INSERT INTO tb_client (name, cpf, income, birthdate, children) VALUES ('Caroline Taynara Junkes Vaz', '301.928.090-75',60000.0 ,TIMESTAMP WITH TIME ZONE '1992-07-14T10:00:00Z', 4);
+INSERT INTO tb_client (name, cpf, income, birthdate, children) VALUES ('Cintia de Souza', '385.410.860-54',10000.0 ,TIMESTAMP WITH TIME ZONE '1990-07-14T10:00:00Z', 6);
+INSERT INTO tb_client (name, cpf, income, birthdate, children) VALUES ('Davi Jaison Ferreira', '623.424.190-58',9000.0 ,TIMESTAMP WITH TIME ZONE '1990-07-14T10:00:00Z', 0);
+INSERT INTO tb_client (name, cpf, income, birthdate, children) VALUES ('David Ricardo de Souza', '106.399.150-19',3000.0 ,TIMESTAMP WITH TIME ZONE '1990-10-14T10:00:00Z', 2);
+INSERT INTO tb_client (name, cpf, income, birthdate, children) VALUES ('Diego Rafael Grossklas', '796.852.830-52',2000.0 ,TIMESTAMP WITH TIME ZONE '1990-07-14T10:00:00Z', 1);
+INSERT INTO tb_client (name, cpf, income, birthdate, children) VALUES ('Douglas Santos Dellani', '207.406.630-97',1750.0 ,TIMESTAMP WITH TIME ZONE '1990-07-14T10:00:00Z', 0);
+INSERT INTO tb_client (name, cpf, income, birthdate, children) VALUES ('Eduardo Carlini', '826.480.200-12',2100.0 ,TIMESTAMP WITH TIME ZONE '1980-07-14T10:00:00Z', 3);
+INSERT INTO tb_client (name, cpf, income, birthdate, children) VALUES ('Gilson Francisco Rodrigues', '990.069.480-55',1980.0 ,TIMESTAMP WITH TIME ZONE '1950-07-14T10:00:00Z', 1);
+INSERT INTO tb_client (name, cpf, income, birthdate, children) VALUES ('Graciele Santana Girardi Kreis', '214.677.000-70',2555.0 ,TIMESTAMP WITH TIME ZONE '1975-07-14T10:00:00Z', 1);
+INSERT INTO tb_client (name, cpf, income, birthdate, children) VALUES ('Grasiani Fachini', '622.272.510-42',1999.0 ,TIMESTAMP WITH TIME ZONE '1976-07-14T10:00:00Z', 2);
+INSERT INTO tb_client (name, cpf, income, birthdate, children) VALUES ('Guilherme Leonardo Becker', '666.738.360-91',2980.0 ,TIMESTAMP WITH TIME ZONE '1980-07-14T10:00:00Z', 2);
+INSERT INTO tb_client (name, cpf, income, birthdate, children) VALUES ('Jackson Petry', '093.964.180-13',2964.0 ,TIMESTAMP WITH TIME ZONE '1995-07-14T10:00:00Z', 1);
+INSERT INTO tb_client (name, cpf, income, birthdate, children) VALUES ('Jaine Iglikowski de Medeiros', '141.477.930-53',6570.0 ,TIMESTAMP WITH TIME ZONE '1997-07-14T10:00:00Z', 3);
+INSERT INTO tb_client (name, cpf, income, birthdate, children) VALUES ('Jaison Jose Spezzia', '299.252.580-49',7582.9 ,TIMESTAMP WITH TIME ZONE '1999-07-14T10:00:00Z', 4);
+INSERT INTO tb_client (name, cpf, income, birthdate, children) VALUES ('Jose Inacio Barbara Depin', '628.013.160-24',6534.98 ,TIMESTAMP WITH TIME ZONE '1983-07-14T10:00:00Z', 5);
+INSERT INTO tb_client (name, cpf, income, birthdate, children) VALUES ('Josnei Schoeffel', '167.568.960-16',3256.0 ,TIMESTAMP WITH TIME ZONE '1988-07-14T10:00:00Z', 1);
+INSERT INTO tb_client (name, cpf, income, birthdate, children) VALUES ('Luis Carlos Werka', '356.062.070-87',4568.0 ,TIMESTAMP WITH TIME ZONE '1985-07-14T10:00:00Z', 2);
+INSERT INTO tb_client (name, cpf, income, birthdate, children) VALUES ('Matheos Coletto Wermuth', '300.873.660-29',2500.0,TIMESTAMP WITH TIME ZONE '1973-07-14T10:00:00Z', 2);
+INSERT INTO tb_client (name, cpf, income, birthdate, children) VALUES ('Micki John de Oliveira', '533.812.720-20',1200.0 ,TIMESTAMP WITH TIME ZONE '1970-07-14T10:00:00Z', 3);
