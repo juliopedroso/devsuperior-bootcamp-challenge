@@ -8,8 +8,11 @@ import javax.persistence.EntityNotFoundException;
 import com.pedroso.devsuperior.bootcamp.dto.ClientDTO;
 import com.pedroso.devsuperior.bootcamp.entities.Client;
 import com.pedroso.devsuperior.bootcamp.repositories.ClientRepository;
+import com.pedroso.devsuperior.bootcamp.services.exceptions.DatabaseException;
 import com.pedroso.devsuperior.bootcamp.services.exceptions.ResourceNotFoundException;
 
+import org.springframework.dao.DataIntegrityViolationException;
+import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -42,7 +45,6 @@ public class ClientService {
         return new ClientDTO(entity);
     }
 
-
     @Transactional
     public ClientDTO update(Long id, ClientDTO dto) {
         try {
@@ -51,7 +53,18 @@ public class ClientService {
             entity = repository.saveAndFlush(entity);
             return new ClientDTO(entity);
         } catch (EntityNotFoundException e) {
-            throw new ResourceNotFoundException("Id not found " +id);
+            throw new ResourceNotFoundException("Id not found " + id);
+        }
+
+    }
+
+    public void delete(Long id) {
+        try {
+            repository.deleteById(id);
+        } catch (EmptyResultDataAccessException e) {
+            throw new ResourceNotFoundException("Id not found " + id);
+        }catch(DataIntegrityViolationException e){
+            throw new DatabaseException("Integrity violation");
         }
 
     }
@@ -63,6 +76,5 @@ public class ClientService {
         entity.setIncome(dto.getIncome());
         entity.setChildren(dto.getChildren());
     }
-
 
 }
