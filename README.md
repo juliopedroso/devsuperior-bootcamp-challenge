@@ -1,6 +1,6 @@
 # Projeto do Desafio do Bootcamp da Devsuperior.
 
-![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
+![service](https://img.shields.io/badge/Framework-Java%20Spring%20Boot-green) ![bancodados](https://img.shields.io/badge/DB-H2-green) ![IDE](https://img.shields.io/badge/ide-VSCode-green)![language](https://img.shields.io/badge/language-Java-green)
 
 ## Objetivo
 Criar um projeto Web Service REST contendo um CRUD (Create, Read, Update e Delete) completo para acessar os recursos dos clientes da aplicação.
